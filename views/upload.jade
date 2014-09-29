@@ -1,0 +1,7 @@
+h2 Upload file
+form(method='post', action='/upload', enctype='multipart/form-data')
+div
+  label File:
+    input(type='file', name='upload' multiple='multiple')
+div
+  input(type='submit', value='Upload file')
